@@ -151,12 +151,12 @@ function App() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                  src="/images/user2--100x100.jpg"
                   alt="User"
                   className="w-12 h-12 rounded-full mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold">John Doe</h4>
+                  <h4 className="font-semibold">Fatimah Musa</h4>
                   <p className="text-gray-600">Daily Commuter</p>
                 </div>
               </div>
@@ -167,12 +167,12 @@ function App() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                  src="/images/user2-100x100.jpg"
                   alt="User"
                   className="w-12 h-12 rounded-full mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold">Jane Smith</h4>
+                  <h4 className="font-semibold">James Adeyemi</h4>
                   <p className="text-gray-600">Business Owner</p>
                 </div>
               </div>
