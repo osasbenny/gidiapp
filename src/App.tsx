@@ -25,7 +25,7 @@ function App() {
       >
         <div className="container mx-auto text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-            Navigate Lagos with Ease – Find the Fastest & Cheapest Routes!
+            GidiApp - Navigate Lagos with Ease – Find the Fastest & Cheapest Routes!
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Get accurate bus fares, real-time traffic updates, and the best travel routes across Lagos.
