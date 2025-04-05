@@ -16,16 +16,37 @@ import {
 function App() {
   return (
     <div className="min-h-screen bg-white">
+      {/* Navigation */}
+      <nav className="fixed top-0 left-0 right-0 bg-white z-50 shadow-sm">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center justify-between">
+            <a href="/" className="flex items-center">
+              <img 
+                src="/gidiapp-logo.svg" 
+                alt="GidiApp Logo" 
+                className="h-8 md:h-10"
+              />
+            </a>
+            <div className="flex gap-4">
+              <button className="hidden md:flex items-center justify-center gap-2 bg-[#34D399] text-white px-6 py-2 rounded-full hover:bg-[#059669] transition-colors text-sm">
+                <PlayCircle size={20} />
+                Download App
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
       {/* Hero Section */}
       <section 
-        className="relative min-h-screen flex items-center justify-center bg-cover bg-center py-20 px-4"
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center py-20 px-4 mt-16"
         style={{
           backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1588258147591-13d6e0d8b1d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")',
         }}
       >
         <div className="container mx-auto text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-            GidiApp - Navigate Lagos with Ease – Find the Fastest & Cheapest Routes!
+            Navigate Lagos with Ease – Find the Fastest & Cheapest Routes!
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Get accurate bus fares, real-time traffic updates, and the best travel routes across Lagos.
@@ -151,12 +172,12 @@ function App() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
                 <img
-                  src="/images/user2--100x100.jpg"
+                  src="https://images.unsplash.com/photo-1506634572416-48cdfe530110?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
                   alt="User"
-                  className="w-12 h-12 rounded-full mr-4"
+                  className="w-12 h-12 rounded-full mr-4 object-cover"
                 />
                 <div>
-                  <h4 className="font-semibold">Fatimah Musa</h4>
+                  <h4 className="font-semibold">James Adeyemi</h4>
                   <p className="text-gray-600">Daily Commuter</p>
                 </div>
               </div>
@@ -167,12 +188,12 @@ function App() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
                 <img
-                  src="/images/user2-100x100.jpg"
+                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
                   alt="User"
-                  className="w-12 h-12 rounded-full mr-4"
+                  className="w-12 h-12 rounded-full mr-4 object-cover"
                 />
                 <div>
-                  <h4 className="font-semibold">James Adeyemi</h4>
+                  <h4 className="font-semibold">Fatimah Musa</h4>
                   <p className="text-gray-600">Business Owner</p>
                 </div>
               </div>
@@ -235,7 +256,13 @@ function App() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">GidiApp</h3>
+              <div className="mb-4">
+                <img 
+                  src="/gidiapp-logo.svg" 
+                  alt="GidiApp Logo" 
+                  className="h-8"
+                />
+              </div>
               <p className="mb-4">Your trusted Lagos transport companion</p>
               <p>Email: support@gidiapp.com</p>
             </div>

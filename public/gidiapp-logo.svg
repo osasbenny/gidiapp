@@ -1,0 +1,10 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Map Pin Icon -->
+    <path d="M20 5 L35 45 L5 45 Z" fill="#FFB800"/>
+    <path d="M15 10 L25 35 L5 35 Z" fill="#008F39"/>
+    <!-- Text -->
+    <text x="50" y="35" font-family="Arial Black" font-size="32" fill="#008F39">Gidi</text>
+    <text x="120" y="35" font-family="Arial Black" font-size="32" fill="#FFB800">App</text>
+  </g>
+</svg>
