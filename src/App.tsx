@@ -279,7 +279,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} GidiApp. All rights reserved. Designed By <a href="https://www.instagram.com/osas.codes" target="_blank" rel="noopener noreferrer" style="color: gold;">Osagie Ebhuomhan</a>
+            <p>&copy; {new Date().getFullYear()} GidiApp. All rights reserved. Designed By <a href="https://www.instagram.com/osas.codes" target="_blank" rel="noopener noreferrer" style="color: gold;">Osagie Bernard Ebhuomhan</a>
 </p>
           </div>
         </div>
